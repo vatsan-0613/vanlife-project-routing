@@ -1,0 +1,112 @@
+body{
+  margin: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.header{
+  display: flex;
+  background-color: #FFF7ED;
+  align-items: center;
+  padding : 10px 20px;
+  padding-right : 3rem;
+}
+
+.header > h3{
+  font-size: 1.7rem;
+  margin : 0;
+  margin-right: auto;
+}
+
+.about-header{
+  margin-right : 2rem
+}
+
+.about p{
+  font-size: 1.2rem;
+}
+
+.hero{
+  background-image: url("../public/images/hero-img.jpg");
+  width : 100%;
+  height : 600px;
+  background-size: cover;
+  /* padding-left: 4rem; */
+}
+
+.title{
+  margin-top: 0;
+  color : #fff;
+  font-size: 4rem;
+  width : 80%;
+}
+
+.desc{
+  color : #fff;
+  font-size: 3rem;
+  width : 80%;
+}
+
+.find-btn{
+  border : none;
+  background-color : rgb(15,19,20, 0.9);
+  color : #fff;
+  border-radius: 10px;
+  width : 40%;
+  padding : 10px 0;
+  font-size: 2rem;
+}
+
+.main{
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+footer{
+  background-color: #252525;
+  padding : 10px 0;
+  text-align: center;
+}
+
+.footer-text{
+  color : gray;
+  font-size: 1.4rem;
+}
+
+.about-hero{
+  width : 100%;
+}
+
+.main-content{
+  width : 80%;
+  margin : 3rem auto;
+}
+
+.about-title{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.about-para{
+  font-size: 2rem;
+}
+
+.card{
+  margin : 3rem auto;
+  width : 80%;
+  background-color: #FFCC8D;
+  border-radius: 10px;
+  padding : 3rem 4rem
+}
+
+.card-text{
+  font-size: 2rem;
+}
+
+.explore-btn {
+  width : 30%;
+  padding : 1.5rem 0.5rem;
+  font-size: 1.6rem;
+}
