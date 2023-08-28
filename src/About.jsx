@@ -6,7 +6,6 @@ import aboutHero from "./assets/about-hero.jpg"
 export default function About(){
     return(
         <div>
-            <Header />
             <img className="about-hero" src={aboutHero} alt="" />
             <div className="main-content">
                 <h2 className="about-title">Don’t squeeze in a sedan when you could relax in a van.</h2>
@@ -19,7 +18,6 @@ export default function About(){
 Your van is ready.</p>
                 <button className="find-btn explore-btn">Explore our Vans</button>
             </div>
-            <Footer/>
         </div>
             
 

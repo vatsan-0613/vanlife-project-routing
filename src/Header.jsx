@@ -6,7 +6,7 @@ export default function Header(){
         <header className="header">
             <h3><Link to="/">#VANLIFE</Link></h3>
             <p className="about-header"><Link to="/about">About</Link></p>
-            <p>Vans</p>
+            <p className="about-header"><Link to="/vans">Vans</Link></p>
         </header>
     )
 }

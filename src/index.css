@@ -68,6 +68,7 @@ footer{
   background-color: #252525;
   padding : 10px 0;
   text-align: center;
+  margin-top : 3rem
 }
 
 .footer-text{
@@ -109,4 +110,87 @@ footer{
   width : 30%;
   padding : 1.5rem 0.5rem;
   font-size: 1.6rem;
+}
+
+.van-img{
+  width : 100%;
+  border-radius: 10px;
+}
+
+.vans{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap : 30px;
+  justify-content: center;
+}
+
+.van-title{
+  width : 50%;
+  margin : 0 auto;
+}
+
+
+.van-type{
+  border : none;
+  padding : 5px 10px;
+  border-radius: 3px;
+  color : #FFEAD0;
+  font-style: normal;
+}
+
+.luxury{
+  background-color: #161616;
+  
+}
+
+.rugged{
+  background-color: #115E59;
+}
+
+.simple{
+  background-color: #E17654;
+}
+
+.van-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.explore-title{
+  margin : 2rem auto;
+  text-align: center;
+}
+
+.link{
+  text-decoration: none;
+  color : inherit;
+}
+
+.van-detail{
+  display: flex;
+}
+
+
+
+.van-detail-container{
+  width : 80%;
+  margin : 4rem auto;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 0;
+  font-size: 1.2rem;
+  align-items: flex-start;
+  margin-left: 2rem;
+}
+
+.rent-btn{
+  font-size: 1.2rem;
+  width : 100%;
+  background-color:#E17654;
+  border-radius: 3px;
 }
